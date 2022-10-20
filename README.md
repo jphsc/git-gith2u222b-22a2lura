@@ -2,6 +2,6 @@
 
 > Status: Iniciando no curso
 
-'''
-Iniciando
-'''
+```
+node app.js
+```
