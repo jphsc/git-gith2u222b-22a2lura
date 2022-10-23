@@ -48,3 +48,5 @@ Primeiro devemos estar na branch que queremos trazer as mudanças (git switch no
 Segundo devemos fazer o merge da branch que queremos trazer (git merge nomeDaBrachDestino),
 Terceiro é fazer o push na branch origem (git push origin nomeDaBranchOrigem)
 </p>
+
+<h4>Mais informações sobre como escrever um readme.md mais estiloso, seguir: <a href="https://www.alura.com.br/artigos/escrever-bom-readme">este link</a>.</h4>
