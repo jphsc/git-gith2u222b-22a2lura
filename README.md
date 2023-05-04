@@ -8,7 +8,24 @@ node app.js
 
 <h2>Comandos do git</h2>
 <h3>git clone urlDoProjeto</h3>
-<p>Clona o repositório para a máquina (local). Quando queremos clonar um repo criando uma nova branch para ele, usamos o comando 'git clone -branch nomeDaBranch urlDoProjeto'</p>
+<p>Clona o repositório existente no github para a máquina (local). Quando queremos clonar um repo criando uma nova branch para ele, usamos o comando 'git clone -branch nomeDaBranch urlDoProjeto'</p>
+
+<h3>Criando um repositório local e integrando com um repositório remoto</h3>
+<ul>
+ <li>Criar o arquivo do git no repositório: git init</li>
+ <li>Criar o readme: git add README.md</li>
+ <li>Primeiro commit: git commit -m "comentario desejado"</li>
+ <li>Selecionar a branch main: git branch -M main</li>
+ <li>Interligar o repositório local com o remoto: git remote add origin https://github.com/jphsc/t.git</li>
+ <li>Subir as alterações para o remoto: git push -u origin main</li>
+</ul>
+
+<h3>Carregando os itens do repositório remoto</h3>
+<ul>
+ <li>Interligar o repositório local com o remoto: git remote add origin https://github.com/jphsc/t.git</li>
+ <li>Selecionar a branch main: git branch -M main</li>
+ <li>Subir as alterações para o remoto: git push -u origin main</li>
+</ul>
 
 <h3>git log</h3>
 <p>Retorna o histórico das últimas alterações.</p>
